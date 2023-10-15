@@ -1551,12 +1551,14 @@ figcaption {
 }
 
 .footer1_bottom-wrapper {
+  color: #000;
   justify-content: space-between;
   align-items: center;
   display: flex;
 }
 
 .footer1_link-list {
+  color: #000;
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 100%;
@@ -2077,6 +2079,10 @@ figcaption {
 
 .luxy {
   font-style: normal;
+}
+
+.text-block-3 {
+  color: #000;
 }
 
 @media screen and (max-width: 991px) {
@@ -2896,7 +2902,7 @@ figcaption {
   align-self: start;
 }
 
-#w-node-bded1caf-ba81-c9ec-b9b5-b01e45e3c43a-76d9be59, #w-node-_994bdad0-9f87-d170-52f7-bc462f13bb7e-76d9be59 {
+#w-node-bded1caf-ba81-c9ec-b9b5-b01e45e3c43a-76d9be59 {
   justify-self: center;
 }
 
