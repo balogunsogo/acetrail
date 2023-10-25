@@ -488,10 +488,18 @@ figcaption {
   padding-right: 0;
 }
 
+.padding-top.padding-medium {
+  padding-top: 1rem;
+}
+
 .padding-bottom, .padding-bottom.padding-xlarge, .padding-bottom.padding-small, .padding-bottom.padding-xxhuge, .padding-bottom.padding-large, .padding-bottom.padding-xhuge, .padding-bottom.padding-custom2, .padding-bottom.padding-xxsmall, .padding-bottom.padding-xxlarge, .padding-bottom.padding-custom3, .padding-bottom.padding-custom1, .padding-bottom.padding-xsmall, .padding-bottom.padding-huge, .padding-bottom.padding-tiny, .padding-bottom.padding-medium, .padding-bottom.padding-0 {
   padding-top: 0;
   padding-left: 0;
   padding-right: 0;
+}
+
+.padding-bottom.padding-xxlarge {
+  padding-bottom: 0;
 }
 
 .padding-left, .padding-left.padding-xhuge, .padding-left.padding-xlarge, .padding-left.padding-0, .padding-left.padding-small, .padding-left.padding-xsmall, .padding-left.padding-medium, .padding-left.padding-xxhuge, .padding-left.padding-huge, .padding-left.padding-custom1, .padding-left.padding-tiny, .padding-left.padding-xxsmall, .padding-left.padding-custom3, .padding-left.padding-custom2, .padding-left.padding-xxlarge, .padding-left.padding-large {
@@ -509,6 +517,10 @@ figcaption {
 .padding-vertical, .padding-vertical.padding-0, .padding-vertical.padding-xxhuge, .padding-vertical.padding-large, .padding-vertical.padding-custom3, .padding-vertical.padding-medium, .padding-vertical.padding-tiny, .padding-vertical.padding-xxlarge, .padding-vertical.padding-custom1, .padding-vertical.padding-xsmall, .padding-vertical.padding-xhuge, .padding-vertical.padding-xlarge, .padding-vertical.padding-custom2, .padding-vertical.padding-xxsmall, .padding-vertical.padding-huge, .padding-vertical.padding-small {
   padding-left: 0;
   padding-right: 0;
+}
+
+.padding-vertical.padding-xxlarge {
+  padding-bottom: 1rem;
 }
 
 .padding-horizontal, .padding-horizontal.padding-xxsmall, .padding-horizontal.padding-0, .padding-horizontal.padding-custom3, .padding-horizontal.padding-huge, .padding-horizontal.padding-xsmall, .padding-horizontal.padding-medium, .padding-horizontal.padding-xxlarge, .padding-horizontal.padding-large, .padding-horizontal.padding-xhuge, .padding-horizontal.padding-custom1, .padding-horizontal.padding-tiny, .padding-horizontal.padding-custom2, .padding-horizontal.padding-xxhuge, .padding-horizontal.padding-small, .padding-horizontal.padding-xlarge {
@@ -1350,6 +1362,12 @@ figcaption {
   font-size: 1.25rem;
 }
 
+.text-size-large.align-mid {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .icon-height-xsmall {
   height: 1.5rem;
 }
@@ -1978,6 +1996,11 @@ figcaption {
   border-color: #fff;
 }
 
+.primary-button.disabled {
+  background-color: #fff;
+  border-color: #000;
+}
+
 .submit-button {
   font-weight: 700;
 }
@@ -2083,6 +2106,14 @@ figcaption {
 
 .text-block-3 {
   color: #000;
+}
+
+.footer1_menu-wrapper-copy {
+  grid-column-gap: 2rem;
+  grid-row-gap: 1rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
 }
 
 @media screen and (max-width: 991px) {
@@ -2746,6 +2777,10 @@ figcaption {
     width: 100%;
     font-size: 1.25rem;
   }
+
+  .footer1_menu-wrapper-copy {
+    grid-column-gap: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2761,6 +2796,10 @@ figcaption {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .margin-top.margin-medium {
+    width: 100%;
   }
 
   .margin-bottom {
@@ -2887,6 +2926,13 @@ figcaption {
 
   .testimonial-copy {
     width: 100%;
+  }
+
+  .footer1_menu-wrapper-copy {
+    grid-row-gap: 2.5rem;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    display: flex;
   }
 }
 
