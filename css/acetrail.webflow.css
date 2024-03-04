@@ -2313,6 +2313,7 @@ figcaption {
 
   .navbar2_menu.is-page-height-tablet {
     height: 100vh;
+    width: 100%;
     padding-bottom: 15rem;
   }
 
